@@ -1,0 +1,129 @@
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  float: left;
+  overflow: hidden;
+  background: linear-gradient(110deg, #F27B35, #F272D0, #F25C78);
+  width: 100%;
+  height: auto;
+  position: fixed;
+}
+
+nav ul li {
+  float: left;
+  width: 33.33%;
+}
+
+nav ul li a {
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 20px 40px;
+  color: white;
+  font-size: 20px;
+  font-family: 'Young Serif', serif;
+}
+
+li a:hover {
+  background-color: white;
+  color: black;
+}
+
+body {
+  font-family: courier new;
+  font-size: 16px;
+  color: black;
+}
+
+p a {
+  text-decoration: none;
+  color: black;
+}
+
+h1, h2, h3 {
+  font-family: 'Young Serif', serif;
+  font-size: 40px;
+  line-height: 170%;
+} 
+
+#main {
+  padding: 10% 20%;
+  background-color: white;
+}
+
+#footer {
+  clear: left;
+  background: linear-gradient(110deg, #F27B35, #F272D0, #F25C78);;
+  font-size: 20px;
+  padding: 5%;
+  color: white;	
+  font-family: 'Young Serif', serif;
+}
+
+hr {
+  border: 5px solid black;
+}
+
+#button {
+  background: black;
+  font-family:  'Young Serif', serif;
+  font-size: 20px;
+  width: 30%;
+  margin-left: 33.3%;
+  margin-right:33.3%;
+  margin-top: 5%;
+  border: 0;
+}
+
+#button a {
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  display: block;
+}
+
+#button a:hover {
+  background-color: white;
+  color: black;
+  border: 0;
+}
+
+.img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  position: static;
+}
+
+iframe {
+  height: 400px;
+  width: 100%;
+  object-fit: contain;
+  position: static;
+  border: 0;
+}
+
+#aboutmeimg {
+  height: auto;
+  width: 45%;
+  object-fit: contain;
+  float: left;
+  border-radius: 50%;
+  margin: 5%;
+}
+
+.text {
+  float: right;
+  width: 50%;
+  margin: 0;
+}
+
+.spacing {
+  margin-bottom: 3%;
+  margin-top: 3%;
+}
+
+#wrap{
+  clear: both;
+}
