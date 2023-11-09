@@ -148,6 +148,10 @@ iframe {
   clear: both;
 }
 
+#map {
+  height: 100%;
+}
+
 @media (max-width: 800px) {
   #main {
     padding-top: 10%;
