@@ -195,11 +195,15 @@ body {
    #aboutmeimg {
     width: 400px;
   }
+  
  #main {
     padding-top: 2%;
     padding-left: 15%;
     padding-right: 15%;
     padding-botton: 5%;
-  }   
+  } 
   
+  iframe {
+  height: 600px;
+}
 }
