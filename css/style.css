@@ -127,3 +127,33 @@ iframe {
 #wrap{
   clear: both;
 }
+
+@media screen and (min-width: 800px) {
+  #main {
+    padding: 5% 10%;
+    background-color: white;    
+  }
+  
+  #aboutmeimg {
+    height: auto;
+    width: 55%;
+    object-fit: contain;
+    float: left;
+    border-radius: 50%;
+    margin: 5%;
+}
+  
+  .text {
+    float: right;
+    width: 40%;
+    margin: 0;
+}
+  
+  iframe {
+    height: 300px;
+    width: 100%;
+    object-fit: contain;
+    position: static;
+    border: 0;
+}
+}
