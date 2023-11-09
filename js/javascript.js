@@ -5,7 +5,7 @@ function init(){
   buttonBack.addEventListener("click", back)
 }
 function forward(){
-  document.getByElementId("malePeacockOne")
+  document.getByElementId("malePeacockTwo")
 }
 function back(){
   document.getByElementId("malePeacockTwo")
