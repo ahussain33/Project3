@@ -176,6 +176,14 @@ body {
 }
   hr {
     border: 3px solid black;
+  }
+  
+  #nextbutton1 {
+  width: 150px;
+}
+  
+  #nextbutton2 {
+  width: 150px;
 }
 }
 
