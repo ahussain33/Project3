@@ -3,13 +3,15 @@ function init(){
   var buttonBack = document.getElementById("nextbutton2")
   buttonForward.addEventListener("click", forward)
   buttonBack.addEventListener("click", back)
-}
-function forward(){
-  change = document.getByElementId("malePeacockOne")
-  change.src = ("media/malepeacock.jpg")
-}
-function back(){
- change = document.getByElementId("malePeacockOne")
- change.src = ("media/malepeacock2.jpg")
+
+  function forward(){
+    change = document.getByElementId("malePeacockOne")
+    change.src = ("media/malepeacock2.jpg")
+  }
+  
+  function back(){
+   change = document.getByElementId("malePeacockOne")
+   change.src = ("media/malepeacock.jpg")
+  }
 }
 window.addEventListener('load', init);
