@@ -128,9 +128,9 @@ iframe {
   clear: both;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
   #main {
-    padding: 3% 8%;
+    padding: 5% 10%;
   }
   
   #aboutmeimg {
@@ -142,7 +142,13 @@ iframe {
 }
   
  nav ul li a {
-   font-size: 15px;
    padding: 10px 20px;
  }
+
+  h1, h2, h3 {
+    font-size: 25px;
+} 
+body {
+   font-size: 10px;
+}
 }
