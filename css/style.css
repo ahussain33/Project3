@@ -128,13 +128,13 @@ iframe {
   clear: both;
 }
 
-@media screen (min-width: 500px) {
+@media (min-width: 500px) {
   #main {
-    padding: 5% 10%;
+    padding: 3% 8%;
   }
   
   #aboutmeimg {
-    width: 55%;
+    width: 200px;
 }
   
   .text {
@@ -142,6 +142,6 @@ iframe {
 }
   
   iframe {
-    height: 300px;
+    height: 200px;
 }
 }
