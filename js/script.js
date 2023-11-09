@@ -28,7 +28,7 @@ async function initMap() {
   map = new Map(document.getElementById("map"), {
     zoom: 4,
     center: position,
-    mapId: "DEMO_MAP_ID",
+    mapId: "9981a68191e6f096",
   });
 
   // The marker, positioned at Uluru
