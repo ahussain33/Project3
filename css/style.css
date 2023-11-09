@@ -134,7 +134,7 @@ iframe {
   }
   
   #aboutmeimg {
-    width: 200px;
+    width: 230px;
 }
   
   .text {
@@ -146,15 +146,15 @@ iframe {
  }
 
   h1, h2, h3 {
-    font-size: 25px;
+    font-size: 27px;
 } 
 body {
-   font-size: 12px;
+   font-size: 13px;
 }
   hr {
     border: 3px solid black;
 }
   .topspace {
-    top-margin: 5%;
+    top-padding: 5%;
   }
 }
