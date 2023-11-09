@@ -107,6 +107,7 @@ hr {
 
 #nextbutton2 {
   background: black;
+  float: right;
   color: white;
   width: 10%;
   padding: 10px 20px;
