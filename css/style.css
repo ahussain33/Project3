@@ -149,10 +149,12 @@ iframe {
     font-size: 25px;
 } 
 body {
-   font-size: 10px;
-   top-margin: 5%;
+   font-size: 12px;
 }
   hr {
     border: 3px solid black;
 }
+  .topspace {
+    top-margin: 5%;
+  }
 }
