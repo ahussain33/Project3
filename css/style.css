@@ -191,12 +191,12 @@ body {
 }
 }
 
-@media (min-width: 1500px) {
+@media (min-width: 1300px) {
    #aboutmeimg {
-    width: 500px;
+    width: 400px;
   }
  #main {
-    padding-top: 5%;
+    padding-top: 2%;
     padding-left: 15%;
     padding-right: 15%;
     padding-botton: 5%;
