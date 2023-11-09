@@ -5,7 +5,8 @@ function init(){
   buttonBack.addEventListener("click", back)
 }
 function forward(){
-  document.getByElementId("malePeacockOne")
+  change = document.getByElementId("malePeacockOne")
+  change.src = ("media/malepeacock.jpg")
 }
 function back(){
  change = document.getByElementId("malePeacockOne")
