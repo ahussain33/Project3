@@ -219,5 +219,7 @@ body {
   }
   #button{
     width: 20%;
+    left-margin: 40%;
+    right-margin: 40%;
   }
 }
