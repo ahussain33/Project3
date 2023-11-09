@@ -5,9 +5,10 @@ function init(){
   buttonBack.addEventListener("click", back)
 }
 function forward(){
-  document.getByElementId("malePeacockTwo")
+  document.getByElementId("malePeacockOne")
 }
 function back(){
-  document.getByElementId("malePeacockTwo")
+ change = document.getByElementId("malePeacockOne")
+ change.src = ("media/malepeacock2.jpg")
 }
 window.addEventListener('load', init);
