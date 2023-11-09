@@ -162,33 +162,33 @@ iframe {
   
   #aboutmeimg {
     width: 230px;
-}
+  }
   
   .text {
     width: 40%;
-}
+  }
   
  nav ul li a {
    padding: 15px 25px;
- }
+   }
 
   h1, h2, h3 {
     font-size: 27px;
-} 
+  } 
 body {
    font-size: 13px;
-}
+  }
   hr {
     border: 3px solid black;
   }
   
   #nextbutton1 {
   width: 150px;
-}
+  }
   
   #nextbutton2 {
   width: 150px;
-}
+  }
 }
 
 @media (min-width: 1400px) {
@@ -205,5 +205,8 @@ body {
   
   iframe {
   height: 700px;
-}
+  }
+  #button{
+    width: 20%;
+  }
 }
