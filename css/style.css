@@ -105,6 +105,11 @@ hr {
   margin-top: 5%;
   border: 0;
 }
+#nextbutton1:hover {
+  color: black;
+  background: white;
+  border: 3px solid black;
+}
 
 #nextbutton2 {
   background: black;
@@ -114,6 +119,12 @@ hr {
   padding: 10px 20px;
   margin-top: 5%;
   border: 0;
+}
+
+#nextbutton2:hover {
+  color: black;
+  background: white;
+  border: 3px solid black;
 }
 
 iframe {
