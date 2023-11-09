@@ -28,6 +28,7 @@ nav ul li a {
 li a:hover {
   background-color: white;
   color: black;
+  display: block;
 }
 
 body {
@@ -147,7 +148,7 @@ iframe {
   clear: both;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   #main {
     padding-top: 10%;
     padding-left: 10%;
@@ -176,4 +177,12 @@ body {
   hr {
     border: 3px solid black;
 }
+}
+
+@media (min-width: 2000px) {
+   #aboutmeimg {
+    width: 600px;
+  }
+    
+  
 }
