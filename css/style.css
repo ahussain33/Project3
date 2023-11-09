@@ -96,6 +96,44 @@ hr {
   position: static;
 }
 
+#nextbutton1 {
+  background: black;
+  font-size: 20px;
+  width: 20%;
+  float: right;
+  margin-top: 5%;
+  border: 0;
+}
+
+#nextbutton1 {
+  background: black;
+  font-size: 20px;
+  width: 20%;
+  float: left;
+  margin-top: 5%;
+  border: 0;
+}
+
+#nextbutton1 a:hover {
+  background-color: white;
+  border: 0;
+}
+
+#nextbutton2 a:hover {
+  background-color: white;
+  border: 0;
+}
+
+span {
+  font-size: 25px;
+  color: white;
+}
+
+span:hover {
+  font-size: 25px;
+  color: black;
+}
+
 iframe {
   height: 400px;
   width: 100%;
