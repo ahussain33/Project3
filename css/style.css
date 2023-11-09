@@ -142,7 +142,7 @@ iframe {
 }
   
  nav ul li a {
-   padding: 10px 20px;
+   padding: 15px 25px;
  }
 
   h1, h2, h3 {
@@ -150,5 +150,9 @@ iframe {
 } 
 body {
    font-size: 10px;
+   top-margin: 5%;
+}
+  hr {
+    border: 3px solid black;
 }
 }
