@@ -160,7 +160,9 @@ iframe {
 }
 
 #map {
-  height: 100%;
+  width: 100%;
+  height: 500px;
+  background-color: grey;
 }
 
 @media (max-width: 800px) {
