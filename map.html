@@ -11,7 +11,16 @@
     <link rel="stylesheet" href="css/reset.css">
    <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDUYyThilFCWfeFerVaGcbEIXotuGBE1Hw&callback=initMap">
-    </script>
+   </script>
+   <script>
+    let map;
+    function initMap() {
+        var map = new google.maps.Map(document.getElementById("map"), {
+            center: {lat: 40.700802, lng: 73.987602}, 
+            zoom: 8,
+        });
+   }
+   </script>
   </head>
   <body>
     <header>
