@@ -13,8 +13,8 @@ function initMap() {
     '<div id="bodyContent">' +
     "<p><b>IIT</b>, also referred to as <b>Illinois Tech</b>, small private university" +
     "in the south side of Chicago." +
-    "It was ranked number 23 in the Wall Street Journals list of college rankings." +
-    "It's largest department is the computer science department followed by the ITM department." +
+    " It was ranked number 23 in the Wall Street Journals list of college rankings." +
+    " It's largest department is the computer science department followed by the ITM department." +
     "</div>" + "</div>";
   
   const infowindow = new google.maps.InfoWindow({
@@ -35,5 +35,17 @@ function initMap() {
     });
   });
   
+  const imageBounds = {
+    north: 41.83111,
+    south: 41.82111,
+    east: -87.62111,
+    west: -87.63111,
+  };
+
+  historicalOverlay = new google.maps.GroundOverlay(
+    "https://storage.googleapis.com/geo-devrel-public-buckets/newark_nj_1922-661x516.jpeg",
+    imageBounds,
+  );
+  historicalOverlay.setMap(map);
  }
 window.initMap = initMap;
