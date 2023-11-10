@@ -131,7 +131,8 @@ iframe {
 
 #map {
   height: 600px;
-  background-color: grey;
+  margin: 10% 20%;
+  background-color: white;
 }
 
 @media (max-width: 800px) {
