@@ -25,7 +25,7 @@ function initMap() {
   const marker = new google.maps.Marker({
     position: myLatLng,
     map,
-    title: "Hello World!",
+    title: "IIT",
   }); 
 
   marker.addListener("click", () => {
