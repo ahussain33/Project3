@@ -5,4 +5,4 @@ function initMap() {
             zoom: 8,
         });
 }
-
+window.addEventListener('load', initMap);
