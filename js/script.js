@@ -34,18 +34,7 @@ function initMap() {
       map,
     });
   });
-  
-  const imageBounds = {
-    north: 41.83111,
-    south: 41.82111,
-    east: -87.62111,
-    west: -87.63111,
-  };
-
-  historicalOverlay = new google.maps.GroundOverlay(
-    "https://www.iit.edu/sites/default/files/2022-08/mies-campus-accessibility-map-2022.jpg",
-    imageBounds,
-  );
-  historicalOverlay.setMap(map);
+  const trafficLayer = new google.maps.TrafficLayer();
+  trafficLayer.setMap(map);
  }
 window.initMap = initMap;
