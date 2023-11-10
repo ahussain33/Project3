@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <script async src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
+<link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Young+Serif&display=swap" rel="stylesheet">
   </head>
   <body>
@@ -27,13 +29,20 @@
       <section>
         <h1>The Life of a Peacock</h1>
         <hr class="spacing">
-        <img class="img" src="media/malepeacock.jpg" alt="male peacock 1" id="malePeacockOne">
-        <button id="nextbutton1">
-          <span class="material-symbols-outlined">arrow_back_ios</span>
-        </button>
-        <button id="nextbutton2">
-          <span class="material-symbols-outlined">arrow_forward_ios</span>
-        </button>
+          <div class="swiffy-slider">
+            <ul class="slider-container">
+              <li><img class="img" src="media/malepeacock.jpg" style="max-width: 100%;height: auto;"></li>
+              <li><img src="https://source.unsplash.com/nKAglN6HBH8/1600x900" style="max-width: 100%;height: auto;"></li>
+              <li><img src="https://source.unsplash.com/E9ZwWcMGzj8/1600x900" style="max-width: 100%;height: auto;"></li>
+            </ul>
+            <button type="button" class="slider-nav"></button>
+            <button type="button" class="slider-nav slider-nav-next"></button>
+            <div class="slider-indicators">
+              <button class="active"></button>
+              <button></button>
+              <button></button>
+            </div>
+          </div>
         <hr class="spacing">
         <p>Peacocks are commonly found in Asia, Africa, and Australia. A peacock has a life span of twenty years. A peahen is a female peacock. A female peacock is called a peahen. The peahen lays three to six eggs. The mother will take care of the eggs for 29 days. The chicks stay with the peahen for the first few months, learning what to eat, how to care for their feathers, and how to communicate with other peacocks. Peahens mature earlier than males, and some mate when they are 1 year old. Others wait until the second year. The newly hatched chicks are born with flight feathers and are able to fly short distances within three days of hatching.</p>
         <p>Even though a peacock is large, it can still fly. Peahens have brown feathers and shorter tails, which camouflage them and help them fly more easily than males. An average peacock can plumage its wings up to 5 feet and 4 inches. Their feathers are mostly brown, except for their cream-colored bellies and greenish-blue throats. Their tails are much shorter than males, and they can still unfold them into a fan; their feathers are not brightly colored. Male peacocks have very bright feathers with circles on them. A male often uses his traits for mating with peahens. Often times, most of their features do not attract the female peacock.</p>
