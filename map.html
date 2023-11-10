@@ -8,7 +8,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Young+Serif&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
-   <script>
+   <script async defer
+     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDUYyThilFCWfeFerVaGcbEIXotuGBE1Hw&callback=initMap">
+   </script>
+  </head>
+  <body>
+    <h1>My Map</h1>
+    <div id="map"></div>
+    <script>
     let map;
     function initMap() {
         var map = new google.maps.Map(document.getElementById("map"), {
@@ -17,13 +24,6 @@
         });
    }
    </script>
-   <script async defer
-     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDUYyThilFCWfeFerVaGcbEIXotuGBE1Hw&callback=initMap">
-   </script>
-  </head>
-  <body>
-    <h1>My Map</h1>
-    <div id="map"></div>
     <footer id="footer">
       <p>Created by Abiha Hussain</p>
     </footer>
