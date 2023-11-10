@@ -43,7 +43,7 @@ function initMap() {
   };
 
   historicalOverlay = new google.maps.GroundOverlay(
-    "https://storage.googleapis.com/geo-devrel-public-buckets/newark_nj_1922-661x516.jpeg",
+    "https://www.iit.edu/sites/default/files/2022-08/mies-campus-accessibility-map-2022.jpg",
     imageBounds,
   );
   historicalOverlay.setMap(map);
