@@ -161,6 +161,7 @@ iframe {
 
 #map {
   width: 100%;
+  margin: 10% 20%;
   height: 500px;
   background-color: grey;
 }
