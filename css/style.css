@@ -7,7 +7,7 @@ nav ul {
   background: linear-gradient(110deg, #F27B35, #F272D0, #F25C78);
   width: 100%;
   height: auto;
-  position: fixed;
+  position: sticky;
 }
 
 nav ul li {
