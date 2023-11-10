@@ -94,37 +94,7 @@ hr {
   height: 100%;
   width: 100%;
   object-fit: contain;
-  position: static;
-}
-
-#nextbutton1 {
-  background: black;
-  color: white;
-  padding: 10px 20px;
-  width: 10%;
-  margin-top: 5%;
-  border: 0;
-}
-#nextbutton1:hover {
-  color: black;
-  background: white;
-  border: 3px solid black;
-}
-
-#nextbutton2 {
-  background: black;
-  float: right;
-  color: white;
-  width: 10%;
-  padding: 10px 20px;
-  margin-top: 5%;
-  border: 0;
-}
-
-#nextbutton2:hover {
-  color: black;
-  background: white;
-  border: 3px solid black;
+  position: fixed;
 }
 
 iframe {
