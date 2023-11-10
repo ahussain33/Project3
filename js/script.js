@@ -1,12 +1,15 @@
-let map;
+function init(){
+  var change = document.getByElementId("malePeacockOne");
+  var buttonForward = document.getElementById("nextbutton1");
+  var buttonBack = document.getElementById("nextbutton2");
+  buttonForward.addEventListener("click", forward);
+  buttonBack.addEventListener("click", back);
 
-async function initMap() {
-  const { Map } = await google.maps.importLibrary("maps");
-
-  map = new Map(document.getElementById("map"), {
-    center: { lat: -34.397, lng: 150.644 },
-    zoom: 8,
-  });
+ function forward(){
+    change.src = ("media/malepeacock2.jpg");
+ }
+ function back(){
+    change.src = ("media/malepeacock.jpg");
+ }
 }
-
-initMap();
+window.addEventListener('load', init);
